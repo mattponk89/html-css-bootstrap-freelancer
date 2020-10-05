@@ -1,3 +1,6 @@
+.container {
+  text-align: center;
+}
 .container .row [class*='col-']{
   text-align: center;
   background-color: grey;
