@@ -1,0 +1,6 @@
+.container .row [class*='col-']{
+  text-align: center;
+  background-color: grey;
+  border: 1px solid black;
+  height: 50px;
+}
