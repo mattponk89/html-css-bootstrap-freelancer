@@ -1,9 +1,65 @@
+
+header{
+  background-color: #2C3E50;
+
+}
 .container {
   text-align: center;
 }
-.container .row [class*='col-']{
-  text-align: center;
-  background-color: grey;
+.text_white{
+  color:white;
+}
+.text_black{
+  color: black;
+}
+#my_start_bootstrap,
+#my_about{
+  background-color: #1ABC9C;
+}
+.h_60{
+  height: 60px;
+}
+.h_400{
+  height: 400px;
+}
+.h_500{
+  height: 500px;
+}
+._h600{
+  height: 600px;
+}
+.text_align_left{
+  text-align: left;
+}
+.box-center{
+  position: relative;
+}
+/* posizionamento centrato verticale e orizzontale */
+.item-center{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin:0;
+}
+#my_start_bootstrap>.my_box_start>.foto_sorriso{
+  width: 15rem;
+}
+#my_portfolio .box_foto_portfolio{
+  padding: 15px;
+}
+#my_portfolio .foto_portfolio{
+  width: 100%;
+  border-radius: 10px;
+}
+#my_contact_me .form_contact {
   border: 1px solid black;
+}
+footer>.top_footer{
+  background-color: #2C3E50;
+}
+footer>.bottom_footer{
+  background-color: #000000;
   height: 50px;
 }
