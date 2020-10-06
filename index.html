@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body class="debug">
     <header>
+
+      <!-- DIV PER FIXARE L'ASSENZA DELLA NAVBAR NEL FLUSSO -->
+
+      <div class="fix-navbar-fixed h_100">
+
+      </div>
+
+      <!-- NAVBAR -->
+
       <nav class="navbar navbar-fixed-top">
         <div class="container text_white">
           <div class="row">
@@ -19,12 +28,12 @@
               </div>
             </div>
             <div class="col-xs-3 col-sm-6 col-md-6">
-              <div class="my_navbar text-right line-height_100 h_100 hidden-xs">
+              <div class="my_navbar text-right line-height_100 h_100 hidden-xs hidden-sm">
                 <a href="#">PORTFOLIO</a>
                 <a href="#">ABOUT</a>
                 <a href="#">CONTACT</a>
               </div>
-              <div class="my_navbar text-right line-height_100 h_100 visible-xs visible sm">
+              <div class="my_navbar text-right line-height_100 h_100 visible-xs visible-sm">
                 <a class="btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-menu-hamburger text_white" aria-hidden="true"></span></a>
               </div>
             </div>
@@ -32,22 +41,32 @@
         </div>
       </nav>
 
+      <!-- SEZIONE START BOOTSTRAP -->
+
       <div id="my_start_bootstrap" class="text_white h_600 box-center">
         <div class="my_box_start text-center item-center">
           <img class="foto_sorriso"src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="Sorriso">
           <h2>START BOOTSTRAP</h2>
-
+          <div class="box-art">
+            <div class="riga-art-white"></div>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <div class="riga-art-white"></div>
+          </div>
+          <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
         </div>
       </div>
     </header>
     <main>
+
+      <!-- SEZIONE PORTFOLIO -->
+
       <section id="my_portfolio">
         <div class="container">
           <div class="row">
             <h2>PORTFOLIO</h2>
             <div class="box-art">
               <div class="riga-art-black"></div>
-              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <i class="fa fa-star" aria-hidden="true"></i>
               <div class="riga-art-black"></div>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-4">
@@ -83,38 +102,58 @@
           </div>
         </div>
       </section>
-      <section id="my_about" class="text_white h_500 box-center">
+
+      <!-- SEZIONE ABOUT -->
+
+      <section id="my_about" class="text_white h_400 box-center">
         <div class="container item-center">
           <h2>ABOUT</h2>
+          <div class="box-art">
+            <div class="riga-art-white"></div>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <div class="riga-art-white"></div>
+          </div>
           <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-1">
-              <p class="text_align_left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2">
+              <p class="text_align_left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-0">
-              <p class="text_align_left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0">
+              <p class="text_align_left">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
             </div>
           </div>
-          <div class="my_button_download">
-            DOWNLOAD
+          <div class="my_button">
+              <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Download
           </div>
         </div>
       </section>
-      <section id="my_contact_me" class="h_500">
+
+      <!-- SEZIONE CONTATTI -->
+
+      <section id="my_contact_me" class="h_400">
         <div class="container">
           <h2>CONTACT ME</h2>
+          <div class="box-art">
+            <div class="riga-art-black"></div>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <div class="riga-art-black"></div>
+          </div>
           <div class="row">
-            <div class="col-xs-10 col-xs-offset-1">
-              <div class="form_contact h_400">
-
-              </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+              <form class="form_contact">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="number" name="tel_number" placeholder="Tel Number">
+                <textarea name="message" rows="8" cols="80" placeholder="Message"></textarea>
+                <button class="my_button" type="submit" name="submit-message">Send</button>
+              </form>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="text_white">
-      <div class="top_footer">
-        <div class="container">
+      <div class="top_footer h_200 box-center">
+        <div class="container item-center">
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <h4>LOCATION</h4>
@@ -122,7 +161,10 @@
             </div>
             <div class="col-xs-12 col-md-4">
               <h4>AROUND THE WEB</h4>
-
+              <a class="link_social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="link_social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a class="link_social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a class="link_social" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
             <div class="col-xs-12 col-md-4">
               <h4>ABOUT FREELANCER</h4>

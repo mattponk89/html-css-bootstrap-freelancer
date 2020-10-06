@@ -1,15 +1,9 @@
-
-
-body{
-font-family: 'Roboto' , sans-serif;
-}
 .container {
   text-align: center;
 }
 
 .navbar .my_logo {
   font-size: 2.5rem;
-
 }
 .navbar .my_navbar{
   font-size: 1.5rem;
@@ -23,30 +17,56 @@ font-family: 'Roboto' , sans-serif;
   background-color: #2C3E50;
   border: 1px solid white;
 }
-#my_start_bootstrap{
-  padding-top: 100px;
-}
 
+.my_button{
+  background-color:  #1ABC9C;
+  border: white solid 1px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: auto;
+  display: inline-block;
+}
 #my_start_bootstrap>.my_box_start>.foto_sorriso{
   width: 25rem;
 }
+#my_portfolio,
+#my_about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 #my_portfolio .box_foto_portfolio{
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 #my_portfolio .foto_portfolio{
   width: 100%;
   border-radius: 10px;
 }
-#my_contact_me .form_contact {
-  border: 1px solid black;
-}
 
+.top_footer .link_social{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 1px white solid;
+  border-radius: 50%;
+  color: white;
+  font-size: 2rem;
+}
 /* creazione riga artistica */
 .box-art{
   font-size: 4rem;
 }
-.box-art span {
+.box-art i {
   vertical-align: middle;
+}
+.riga-art-white{
+  background-color: white;
+  vertical-align: middle;
+  height: 3px;
+  width: 15rem;
+  display: inline-block;
+  margin: auto;
 }
 .riga-art-black{
   background-color: black;
@@ -56,7 +76,21 @@ font-family: 'Roboto' , sans-serif;
   display: inline-block;
   margin: auto;
 }
-
+.form_contact{
+  text-align: left;
+}
+.form_contact input,
+.form_contact textarea{
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  line-height: 3rem
+}
+.form_contact .my_button {
+  margin: 10px 0;
+  color: white;
+}
 /* classi helper  */
 
 .text_white{
@@ -71,6 +105,12 @@ font-family: 'Roboto' , sans-serif;
 .h_100{
   height: 100px;
 }
+.h_200{
+  height: 200px;
+}
+.h_300{
+  height: 300px;
+}
 .h_400{
   height: 400px;
 }
@@ -79,6 +119,9 @@ font-family: 'Roboto' , sans-serif;
 }
 .h_600{
   height: 600px;
+}
+.h_700{
+  height: 700px;
 }
 .text_align_left{
   text-align: left;
@@ -109,6 +152,7 @@ header>.navbar{
 }
 footer>.top_footer{
   background-color: #2C3E50;
+
 }
 footer>.bottom_footer{
   background-color: #000000;
