@@ -3,40 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body class="debug">
-    <header class="h_60">
-      <div class="container text_white">
-        <div class="row">
-          <div class="col-xs-6">
-            <div class="my_logo">
-              START BOOTSTRP
+    <header>
+      <nav class="navbar navbar-fixed-top">
+        <div class="container text_white">
+          <div class="row">
+            <div class="col-xs-9 col-sm-6 col-md-6">
+              <div class="my_logo text-left line-height_100 h_100">
+                START BOOTSTRAP
+              </div>
             </div>
-          </div>
-          <div class="col-xs-6">
-            <div class="my_navbar">
-              NAVBAR
+            <div class="col-xs-3 col-sm-6 col-md-6">
+              <div class="my_navbar text-right line-height_100 h_100 hidden-xs">
+                <a href="#">PORTFOLIO</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+              </div>
+              <div class="my_navbar text-right line-height_100 h_100 visible-xs visible sm">
+                <a class="btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-menu-hamburger text_white" aria-hidden="true"></span></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
 
+      <div id="my_start_bootstrap" class="text_white h_600 box-center">
+        <div class="my_box_start text-center item-center">
+          <img class="foto_sorriso"src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="Sorriso">
+          <h2>START BOOTSTRAP</h2>
+
+        </div>
+      </div>
     </header>
     <main>
-      <section id="my_start_bootstrap" class="text_white h_500 box-center">
-          <div class="my_box_start text-center item-center">
-              <img class="foto_sorriso"src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="Sorriso">
-              <h2>START BOOTSTRAP</h2>
-
-          </div>
-      </section>
       <section id="my_portfolio">
         <div class="container">
           <div class="row">
             <h2>PORTFOLIO</h2>
+            <div class="box-art">
+              <div class="riga-art-black"></div>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <div class="riga-art-black"></div>
+            </div>
             <div class="col-xs-12 col-md-6 col-lg-4">
               <div class="box_foto_portfolio">
                 <img class="foto_portfolio" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="baita">

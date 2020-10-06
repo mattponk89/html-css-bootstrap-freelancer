@@ -1,23 +1,75 @@
 
-header{
-  background-color: #2C3E50;
 
+body{
+font-family: 'Roboto' , sans-serif;
 }
 .container {
   text-align: center;
 }
+
+.navbar .my_logo {
+  font-size: 2.5rem;
+
+}
+.navbar .my_navbar{
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.navbar .my_navbar a{
+  color: white;
+  margin: 0 1.5rem;
+}
+.my_navbar>.btn{
+  background-color: #2C3E50;
+  border: 1px solid white;
+}
+#my_start_bootstrap{
+  padding-top: 100px;
+}
+
+#my_start_bootstrap>.my_box_start>.foto_sorriso{
+  width: 25rem;
+}
+#my_portfolio .box_foto_portfolio{
+  padding: 15px;
+}
+#my_portfolio .foto_portfolio{
+  width: 100%;
+  border-radius: 10px;
+}
+#my_contact_me .form_contact {
+  border: 1px solid black;
+}
+
+/* creazione riga artistica */
+.box-art{
+  font-size: 4rem;
+}
+.box-art span {
+  vertical-align: middle;
+}
+.riga-art-black{
+  background-color: black;
+  vertical-align: middle;
+  height: 3px;
+  width: 15rem;
+  display: inline-block;
+  margin: auto;
+}
+
+/* classi helper  */
+
 .text_white{
   color:white;
 }
 .text_black{
   color: black;
 }
-#my_start_bootstrap,
-#my_about{
-  background-color: #1ABC9C;
+.line-height_100{
+  line-height: 100px;
 }
-.h_60{
-  height: 60px;
+.h_100{
+  height: 100px;
 }
 .h_400{
   height: 400px;
@@ -25,12 +77,14 @@ header{
 .h_500{
   height: 500px;
 }
-._h600{
+.h_600{
   height: 600px;
 }
 .text_align_left{
   text-align: left;
 }
+
+/* per usare il position obsolute metto relative al box padre */
 .box-center{
   position: relative;
 }
@@ -43,18 +97,15 @@ header{
   transform: translate(-50%, -50%);
   margin:0;
 }
-#my_start_bootstrap>.my_box_start>.foto_sorriso{
-  width: 15rem;
+
+/* background sezioni */
+
+header>.navbar{
+  background-color: #2C3E50;
 }
-#my_portfolio .box_foto_portfolio{
-  padding: 15px;
-}
-#my_portfolio .foto_portfolio{
-  width: 100%;
-  border-radius: 10px;
-}
-#my_contact_me .form_contact {
-  border: 1px solid black;
+#my_start_bootstrap,
+#my_about{
+  background-color: #1ABC9C;
 }
 footer>.top_footer{
   background-color: #2C3E50;
