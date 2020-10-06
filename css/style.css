@@ -21,7 +21,14 @@ body{
   background-color: #2C3E50;
   border: 1px solid white;
 }
-
+.my_navbar>.btn:hover{
+  background-color: #1ABC9C;
+  border: 1px solid white;
+}
+.my_navbar>a:hover{
+  text-decoration: none;
+  color: #1ABC9C;
+}
 .my_button{
   background-color:  #1ABC9C;
   border: white solid 1px;
@@ -60,6 +67,32 @@ body{
   font-size: 2rem;
 }
 
+/* elementi interattivi */
+
+.my_navbar>.btn:hover{
+  background-color: #1ABC9C;
+  border: 1px solid white;
+}
+.my_navbar>a:hover{
+  text-decoration: none;
+  color: #1ABC9C;
+}
+#my_about .my_button:hover{
+  background-color: white;
+  color: black;
+
+}
+.form_contact .my_button:hover {
+  background-color: #236d58;
+}
+.top_footer .link_social:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+#my_portfolio .box_foto_portfolio:hover{
+
+}
+
 
 /* Elementi in bold */
 
@@ -86,7 +119,7 @@ h4{
   margin: auto;
 }
 .riga-art-black{
-  background-color: black;
+  background-color: #2C3E50;
   vertical-align: middle;
   height: 3px;
   width: 15rem;
@@ -114,7 +147,7 @@ h4{
   color:white;
 }
 .text_black{
-  color: black;
+  color: #2C3E50;
 }
 .line-height_100{
   line-height: 100px;
