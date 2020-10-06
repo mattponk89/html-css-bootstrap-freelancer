@@ -29,8 +29,10 @@
 #my_start_bootstrap>.my_box_start>.foto_sorriso{
   width: 25rem;
 }
+#my_start_bootstrap,
 #my_portfolio,
-#my_about {
+#my_about,
+#my_contact_me {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -53,6 +55,8 @@
   color: white;
   font-size: 2rem;
 }
+
+
 /* creazione riga artistica */
 .box-art{
   font-size: 4rem;
@@ -152,9 +156,10 @@ header>.navbar{
 }
 footer>.top_footer{
   background-color: #2C3E50;
-
+  padding: 20px 0;
 }
 footer>.bottom_footer{
   background-color: #000000;
   height: 50px;
+  line-height: 50px;
 }
