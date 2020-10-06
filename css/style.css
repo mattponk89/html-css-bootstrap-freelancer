@@ -89,8 +89,28 @@ body{
   background-color: white;
   color: #2C3E50;
 }
-#my_portfolio .box_foto_portfolio:hover{
 
+#my_portfolio .box_foto_portfolio .my_plus{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#my_portfolio .box_foto_portfolio .box_foto_portfolio {
+  position: relative;
+}
+
+#my_portfolio .box_foto_portfolio:hover .foto_portfolio {
+  opacity: 0.4;
+}
+
+#my_portfolio .box_foto_portfolio:hover .my_plus {
+  opacity: 1;
 }
 
 
